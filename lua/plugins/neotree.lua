@@ -9,7 +9,7 @@ require("neo-tree").setup({
   },
   filesystem = {
     filtered_items = {
-      visible = false,
+      visible = true,
       hide_dotfiles = false,
       hide_gitignored = true,
     },
@@ -18,3 +18,5 @@ require("neo-tree").setup({
     },
   },
 })
+
+vim.keymap.set('n', '<leader>n', ':Neotree toggle<CR>', { desc = "Toggle Neo-tree" })
