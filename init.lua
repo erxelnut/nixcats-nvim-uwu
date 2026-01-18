@@ -12,4 +12,14 @@ if nixCats('general') then
 	require('plugins.telescope')
 	require('plugins.flash')
 	require('plugins.yazi')
+	require('plugins.neotree')
+	require("transparent").setup({
+		extra_groups = {
+			"NormalFloat",
+			"FloatBorder",
+			"NeoTreeNormal",
+			"NeoTreeNormalNC",
+			"NeoTreeWinSeperator",
+		},
+	})
 end

@@ -112,6 +112,12 @@
 	  flash-nvim
 	  which-key-nvim
 	  yazi-nvim
+	  # neotree
+	  neo-tree-nvim
+	  nui-nvim
+	  nvim-web-devicons
+	  # trans neovim
+	  transparent-nvim
 	];
       };
 
