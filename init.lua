@@ -1,7 +1,8 @@
 -- re-typed from gemini
 local nixCats = require('nixCats')
 
-
+vim.opt.number = true
+vim.opt.relativenumber = true
 -- set <space> as the leader key
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
